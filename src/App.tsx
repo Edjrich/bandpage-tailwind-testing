@@ -12,7 +12,7 @@ function App() {
           <nav
             className={`fixed left-0 top-0 h-screen w-${sidebarWidth} bg-gray-950 text-white shadow-lg`}
           >
-            <ul className=" flex flex-col ">
+            <ul className="flex flex-col">
               <li>
                 <a href="#home">Home</a>
               </li>
@@ -21,6 +21,9 @@ function App() {
               </li>
               <li>
                 <a href="#shows">Shows</a>
+              </li>
+              <li>
+                <a href="#shows">About</a>
               </li>
               <li>
                 <a href="#contact">Contact</a>
@@ -39,8 +42,17 @@ function App() {
                 className="mx-auto h-auto w-full max-w-3xl"
               ></img>
               <figcaption>
-                The debut single Hypnopompic is available everywhere now. Stream
-                or purchase it here. ADD LINKZ.
+                <p>
+                  The debut single Hypnopompic is now available everywhere.
+                  Stream or purchase it here. ADD LINKZ.
+                </p>
+                <i>Bandcamp</i>
+                <i>Spotify</i>
+                <i>Apple Music</i>
+                <i>Youtube</i>
+                <i>???</i>
+                <i>?_?</i>
+                <i>Tidal?</i>
               </figcaption>
             </figure>
           </section>
@@ -58,8 +70,8 @@ function App() {
       </div> */}
 
           {/* Contact */}
-          <div className="bg-green-400">
-            <p>Contact</p>
+          <div className="bg-blue-400">
+            <p>Contact us here "insert email</p>
           </div>
         </main>
 
